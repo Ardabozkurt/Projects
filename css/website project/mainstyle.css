@@ -226,7 +226,6 @@ footer{
 .footer-div{
     width: 50%;
     margin: 20px;
-
 }
 
 .footer-div h1{
@@ -235,12 +234,24 @@ footer{
     text-align: center;
 }
 
+.footer-font{
+    display: block;
+}
+
 .contact{
     display: flex;
     justify-content: space-around;
 }
 
-.line{
+.horizontal-line{
+    border: none;
+    border-top: 0.6px solid #fff;
+    width: 200px;
+    margin-bottom:20px;
+    margin-left: 185px;
+}
+
+.vertical-line{
     border: none;
     border-right: 0.6px solid #fff;
     height: 100px;
