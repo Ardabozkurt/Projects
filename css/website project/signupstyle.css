@@ -93,7 +93,7 @@ nav i{
     color: #fff;
 }
 
-.navbar-item .purple{
+.navbar-item .pink{
     color: lightpink;
 }
 
@@ -174,7 +174,7 @@ label[for=signup] a, label[for=password-forgot] a{
 
 
 
-input[type=text]{
+input[type=email], input[type=password]{
     width: 80%;
     padding: 12px 20px;
     margin: 8px 40px;
@@ -189,7 +189,7 @@ input[type=submit] {
     background-color: #fff;
     color: black;
     padding: 14px 20px;
-    margin: 80px 40px;
+    margin: 20px 40px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -201,3 +201,94 @@ input[type=submit]:hover{
     color: #fff;
 }
 
+input[type=submit]:active{
+    background-color: #fff;
+    color: black;
+}
+
+
+
+.visible{
+    position: absolute;
+    top: 220px;
+    left: 330px;
+    background-color: white;
+    border: none;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.visible:active{
+    color: lightpink;
+}
+
+
+.link-btn{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.link-account{
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 40px;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    opacity: 0.6;
+}
+
+.btn i{
+    padding-top: 2px;
+    padding-right: 8px;
+}
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.facebook{
+    color: white;
+    background-color: #3b5998;
+}
+
+.fa-facebook-square{
+    border: none;
+    color: white;
+}
+
+.twitter{
+    color: white;
+    background-color: #1DA1F2;
+}
+
+.fa-twitter-square{
+    border: none;
+    color: white;
+}
+
+.line-thinner{
+    border: none;
+    border-top: .1rem solid;
+    overflow: visible;
+    height: 0;  
+    padding: 1rem;
+    margin-top: 10px;
+}
